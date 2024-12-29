@@ -1,0 +1,78 @@
+.ttt{
+    color: rgb(133, 162, 162);
+}
+.body{
+    background-image: url(back.png);
+}
+/* Ensure the hero-row container is a flex container */
+/* Ensure the hero-row container is a flex container */
+.hero-row {
+    display: flex;             /* Align items in a row */
+    justify-content: space-evenly;  /* Evenly space the items */
+    align-items: center;       /* Vertically align items in the middle */
+    gap: 20px;                 /* Optional: space between the items */
+    flex-wrap: wrap;           /* Allow items to wrap to the next line if necessary */
+}
+
+/* Style the anchor tags to make sure images and names align correctly */
+.hero-row a {
+    text-decoration: none;      /* Remove the underline from links */
+    text-align: center;         /* Center the text below the images */
+}
+
+/* Ensure all images are the same size */
+.hero-row img {
+    width: 350px;               /* Set a fixed width for the images */
+    height: 150px;              /* Set a fixed height for the images */
+    object-fit: cover;          /* Ensures images cover the set size without distortion */
+    border-radius: 10px;        /* Optional: Adds rounded corners to images */
+}
+
+/* Optional: Style for the hero name */
+.hero-name {
+    margin-top: 8px;            /* Space between the image and the name */
+    font-size: 14px;            /* Adjust font size */
+    color: #333;                /* Text color */
+}
+.heroinf{
+    
+        
+        background-color:rgba(84, 77, 77, 0.696);
+        padding:5px 15px;
+       justify-content: space-between;
+       display: flex;
+       align-items: center;
+    
+        
+        
+        border-radius: 20px;
+  
+}
+.hero-name{
+    color: white;
+}
+.heroinf:hover{
+    background-color: rgb(114, 114, 139);
+}
+.hero-row {
+    display: flex;
+    gap: 16px; /* Space between hero cards in a row */
+    margin-bottom: 32px; /* Space between rows */
+}
+
+.heroinf {
+    text-align: center;
+}
+
+.heroinf img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px; /* Optional styling */
+}
+
+.hero-name {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
